@@ -1,0 +1,17 @@
+{
+  "name": "useragentdataparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/userAgentParser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/userAgentParser.js -o dist/userAgentParser.js && uglifyjs dist/userAgentParser.js -o dist/userAgentParser.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.1",
+    "uglify-js": "^3.19.3"
+  }
+}
